@@ -20,7 +20,7 @@ function Quote() {
   const newQuoteHandler = () => {
     fetchQuotes();
     seAnimate(true);
-    const anTimer = setTimeout(() => seAnimate(false), 400);
+    setTimeout(() => seAnimate(false), 400);
   };
 
   useEffect(() => {
